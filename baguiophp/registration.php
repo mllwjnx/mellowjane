@@ -1,6 +1,8 @@
-?php 
-$title='INDEX';
+<?php
+
+$title='index';
 require_once 'includes/header.php';
+
 ?>
 <form>
   <div class="form-row">
@@ -57,9 +59,7 @@ require_once 'includes/header.php';
       </label>
     </div>
   </div>
-  <button type="submit" class="btn btn-primary">Sign in</button>
+  <button type="submit" class="btn btn-primary btn-block">Sign in</button>
 </form>
 
 </div>
-
-<?php 
